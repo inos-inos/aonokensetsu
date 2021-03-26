@@ -1,0 +1,111 @@
+@media(max-width: 960px) {
+
+.wrapper {
+  margin: 0 20px;
+}
+
+
+header {
+  height: 50vh;
+}
+
+header .wrapper {
+  padding: 15px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.header-nav ul {
+  display: none;
+}
+
+.nav-icon {
+  display:block;
+  font-size: 28px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: normal; 
+}
+
+/* Main */
+.information , .case {
+  padding: 50px 0;
+}
+
+main h2 {
+  font-size: 24px;
+  font-weight: normal; 
+  margin-bottom: 0;
+}
+
+.information dl {
+  margin: 0 20px;
+  max-width: 100%;
+  border-bottom: 1px solid #000;
+  padding: 30px 0;
+}
+
+.info-list {
+  display: block;
+  color: #000;
+}
+
+.info-list dd,dt {
+  padding: 0;
+}
+
+.info-list dt {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+/* case */
+.case-content {
+  display: block;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.section img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.case-btn {
+  margin-top: 0;
+}
+
+/* links */
+.links {
+  display: block;
+  padding-top: 50px;
+}
+
+/* footer */
+
+footer .wrapper {
+  margin: 0 auto 30px;
+  padding-top: 50px;
+  flex-direction: column-reverse;
+}
+
+.footer-nav ul {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer-nav li {
+  padding-bottom: 30px;
+}
+
+}
